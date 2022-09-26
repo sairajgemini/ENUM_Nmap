@@ -1,0 +1,74 @@
+# Nmap 7.92 scan initiated Mon Sep 26 21:27:23 2022 as: nmap -Pn -n -sV -O --open -oA ./defaultScan -v 192.168.64.7 192.168.1.9
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+adjust_timeouts2: packet supposedly had rtt of 11008974 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 11008974 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 11008435 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 11008435 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 11008814 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 11008814 microseconds.  Ignoring time.
+Nmap scan report for 192.168.64.7
+Host is up (0.13s latency).
+Not shown: 924 filtered tcp ports (no-response), 27 filtered tcp ports (admin-prohibited), 47 closed tcp ports (reset)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE         VERSION
+22/tcp   open  ssh             OpenSSH 8.7 (protocol 2.0)
+9090/tcp open  ssl/zeus-admin?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9090-TCP:V=7.92%T=SSL%I=7%D=9/26%Time=6331CC84%P=aarch64-unknown-li
+SF:nux-gnu%r(GetRequest,DB0,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent
+SF:-Type:\x20text/html;\x20charset=utf8\r\nTransfer-Encoding:\x20chunked\r
+SF:\nX-DNS-Prefetch-Control:\x20off\r\nReferrer-Policy:\x20no-referrer\r\n
+SF:X-Content-Type-Options:\x20nosniff\r\nCross-Origin-Resource-Policy:\x20
+SF:same-origin\r\nX-Frame-Options:\x20sameorigin\r\n\r\n29\r\n<!DOCTYPE\x2
+SF:0html>\n<html>\n<head>\n\x20\x20\x20\x20<title>\r\nb\r\nBad\x20request\
+SF:r\nc2b\r\n</title>\n\x20\x20\x20\x20<meta\x20http-equiv=\"Content-Type\
+SF:"\x20content=\"text/html;\x20charset=utf-8\">\n\x20\x20\x20\x20<meta\x2
+SF:0name=\"viewport\"\x20content=\"width=device-width,\x20initial-scale=1\
+SF:.0\">\n\x20\x20\x20\x20<style>\n\tbody\x20{\n\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20font-family:\x20\"RedHatDisplay\",\x20\"Open\x20Sans\",\x
+SF:20Helvetica,\x20Arial,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20font-size:\x2012px;\n\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20line-height:\x201\.66666667;\n\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20color:\x20#333333;\n\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20background-color:\x20#f5f5f5;\n\x20\x20\x20\x20\x20\x
+SF:20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20img\x20{\n\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20border:\x200;\n\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20vertical-align:\x20middle;\n\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20h1\x20{\n\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20300;\n\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20p\x20")%r(HTTPOptio
+SF:ns,DB0,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-Type:\x20text/htm
+SF:l;\x20charset=utf8\r\nTransfer-Encoding:\x20chunked\r\nX-DNS-Prefetch-C
+SF:ontrol:\x20off\r\nReferrer-Policy:\x20no-referrer\r\nX-Content-Type-Opt
+SF:ions:\x20nosniff\r\nCross-Origin-Resource-Policy:\x20same-origin\r\nX-F
+SF:rame-Options:\x20sameorigin\r\n\r\n29\r\n<!DOCTYPE\x20html>\n<html>\n<h
+SF:ead>\n\x20\x20\x20\x20<title>\r\nb\r\nBad\x20request\r\nc2b\r\n</title>
+SF:\n\x20\x20\x20\x20<meta\x20http-equiv=\"Content-Type\"\x20content=\"tex
+SF:t/html;\x20charset=utf-8\">\n\x20\x20\x20\x20<meta\x20name=\"viewport\"
+SF:\x20content=\"width=device-width,\x20initial-scale=1\.0\">\n\x20\x20\x2
+SF:0\x20<style>\n\tbody\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font
+SF:-family:\x20\"RedHatDisplay\",\x20\"Open\x20Sans\",\x20Helvetica,\x20Ar
+SF:ial,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20fo
+SF:nt-size:\x2012px;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line
+SF:-height:\x201\.66666667;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20color:\x20#333333;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:background-color:\x20#f5f5f5;\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\x20\
+SF:x20\x20\x20\x20\x20\x20\x20img\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20border:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20vertical-align:\x20middle;\n\x20\x20\x20\x20\x20\x20\x20\x20}\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20h1\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20font-weight:\x20300;\n\x20\x20\x20\x20\x20\x20\x20\x20}
+SF:\n\x20\x20\x20\x20\x20\x20\x20\x20p\x20");
+Device type: general purpose
+Running: Linux 2.4.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.4.37 cpe:/o:linux:linux_kernel:3.2
+OS details: DD-WRT v24-sp2 (Linux 2.4.37), Linux 3.2
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: Incremental
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 26 21:32:25 2022 -- 2 IP addresses (2 hosts up) scanned in 302.11 seconds

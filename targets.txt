@@ -1,0 +1,4 @@
+attacker: 172.16.15.128
+victim1-linux: 192.128.64.7
+victim2-linux: 192.168.1.9
+
